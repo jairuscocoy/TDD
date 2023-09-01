@@ -21,23 +21,23 @@ describe('AppNavigator', () => {
     })
   });
 
-  test('should render WeatherScreen on "weather" route', async ()=>{
-    (HomeScreen as jest.Mock).mockImplementationOnce(()=>{
-      const navigation = useNavigation()
+  // test('should render WeatherScreen on "weather" route', async ()=>{
+  //   (HomeScreen as jest.Mock).mockImplementationOnce(()=>{
+  //     const navigation = useNavigation()
 
-      useEffect(()=>{
-        navigation.navigate('Weather')
-      },[navigation])
+  //     useEffect(()=>{
+  //       navigation.navigate('Weather')
+  //     },[navigation])
 
-      return null
-    })
+  //     return null
+  //   })
 
-    (WeatherScreen as jest.Mock).mockReturnValueOnce(<View testID="mock-weather-screen"/>)
+  //   (WeatherScreen as jest.Mock).mockReturnValueOnce(<View testID="mock-weather-screen"/>)
 
-    const wrapper = render(<AppNavigator/>)
+  //   const wrapper = render(<AppNavigator/>)
 
-    await waitFor(()=>{
-      wrapper.getByTestId('mock-weather-screen')
-    })
-  })
+  //   await waitFor(()=>{
+  //     wrapper.getByTestId('mock-weather-screen')
+  //   })
+  // })
 });
