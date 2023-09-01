@@ -249,8 +249,8 @@ PODS:
     - React-Core (= 0.63.4)
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
-  - ReactNativeGetLocation (2.0.0):
-    - React
+  - ReactNativeGetLocation (3.0.1):
+    - React-Core
   - RNCMaskedView (0.1.10):
     - React
   - RNGestureHandler (1.9.0):
@@ -399,7 +399,7 @@ SPEC CHECKSUMS:
   React-RCTText: 5c51df3f08cb9dedc6e790161195d12bac06101c
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
-  ReactNativeGetLocation: 6da6fa5cff3ede411d1a0066755d39872b90f593
+  ReactNativeGetLocation: d8e41c5d499fd26f308502405cadb1f59e6179d6
   RNCMaskedView: 5a8ec07677aa885546a0d98da336457e2bea557f
   RNGestureHandler: 9b7e605a741412e20e13c512738a31bd1611759b
   RNReanimated: e03f7425cb7a38dcf1b644d680d1bfc91c3337ad
@@ -408,4 +408,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 54e23f3eaf22801b946d85bd6b5221d32e0b06c7
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1
